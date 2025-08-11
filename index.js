@@ -21,7 +21,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: 'https://frontendblinkit-1.vercel.app', // Specify exact origin
+  origin: 'https://frontendblinkit.vercel.app/', // Specify exact origin
   credentials: true // Allow credentials
 }));
 
